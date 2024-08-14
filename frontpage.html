@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRScaner </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Messageing QR Scanner </h1>
+    <div id="container"><div id="input-sec">
+        <div id="box"> 
+            <input placeholder="Phn Number" type="text" id="phone" name="number">
+            <br><input placeholder="Message" type="text" id="message" name="number">
+            <br><button onclick="generateQRCode()">click</button>
+        </div>
+    </div>
+    <div id="image-holder">
+        <img src="" alt="QR-code*" id="qrcode">
+    </div></div>
+    
+    
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</html>
